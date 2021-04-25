@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "aws s3 cp dist/shop s3://korteza.gq --recursive"
+    "deploy": "aws s3 cp dist/shop s3://korteza.gq --recursive",
+    "test-headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
